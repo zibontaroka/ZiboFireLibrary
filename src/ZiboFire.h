@@ -6,7 +6,7 @@
 
 class ZiboFire {
 public:
-    ZiboFire(int enA, int in1, int in2, int in3, int in4, int enB, int ir_R, int ir_F, int ir_L, int servo, int pump);
+    ZiboFire(int enA, int IN1, int IN2, int IN3, int IN4, int enB, int IR_Right, int IR_Front, int IR_Left, int servo, int pump);
     void begin(int speed);
     void checkFire();
     void forward();
@@ -19,8 +19,8 @@ public:
     void sweepServo(int startAngle, int endAngle, int step);
     
 private:
-    int _enA, _in1, _in2, _in3, _in4, _enB;
-    int _ir_R, _ir_F, _ir_L, _servo, _pump;
+    int _enA, _IN1, _IN2, _IN3, _IN4, _enB;
+    int _IR_Right, _IR_Front, _IR_Left, _servo, _pump;
     int _speed;
     void servoPulse(int angle);
 };
