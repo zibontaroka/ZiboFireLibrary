@@ -68,8 +68,6 @@ Find the latest version on GitHub: [ZiboFireLibrary](https://github.com/zibontar
 
 ## Author
 **Md Shaifulla Zibon**  
-Email: mdshaifullazibon11@gmail.com  
-Website: [zibon.top](https://zibon.top)
 
 ## License
 This project is licensed under the MIT License.
